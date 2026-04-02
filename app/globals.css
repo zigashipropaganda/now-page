@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#fef7e8];
+  }
+}
+
+@layer utilities {
+  .font-serif {
+    font-family: Georgia, 'Times New Roman', serif;
+  }
+}
